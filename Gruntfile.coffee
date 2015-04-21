@@ -38,7 +38,7 @@ module.exports = (grunt) ->
         verbose: false
         releases: 'test/releases'
         releaseName: 'TestFixtureApp-0.0.0'
-        androidManifest: 
+        androidManifest:
           application:
             'applicationKey' : 'applicationValue'
           activity:
@@ -64,7 +64,9 @@ module.exports = (grunt) ->
             icon40x2: 'test/fixtures/www/icon40x2.png'
             icon57: 'test/fixtures/www/icon57.png'
             icon57x2: 'test/fixtures/www/icon57x2.png'
+            icon60: 'test/fixtures/www/icon60.png'
             icon60x2: 'test/fixtures/www/icon60x2.png'
+            icon60x3: 'test/fixtures/www/icon60x2.png'
             icon72: 'test/fixtures/www/icon72.png'
             icon72x2: 'test/fixtures/www/icon72x2.png'
             icon76: 'test/fixtures/www/icon76.png'
@@ -93,6 +95,8 @@ module.exports = (grunt) ->
             iphonePortrait: 'test/fixtures/www/screen-iphone-portrait.png'
             iphonePortraitx2: 'test/fixtures/www/screen-iphone-portrait-2x.png'
             iphone568hx2: 'test/fixtures/www/screen-iphone-568h-2x.png'
+            iphone667h: 'test/fixtures/www/screen-iphone-667h.png'
+            iphone736h: 'test/fixtures/www/screen-iphone-736h.png'
 
         iosStatusBar: 'WhiteAndTransparent'
         versionCode: -> 2
