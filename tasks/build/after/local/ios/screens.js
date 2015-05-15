@@ -9,7 +9,7 @@
     helpers = require('../../../../helpers')(grunt);
     return {
       build: function(fn) {
-        var appName, phonegapPath, res, _ref, _ref1, _ref2, _ref3, _ref4, _ref5, _ref6, _ref7, _ref8, _ref9;
+        var appName, phonegapPath, res, _ref, _ref1, _ref2, _ref3, _ref4, _ref5, _ref6, _ref7, _ref8;
         screens = helpers.config('screens');
         phonegapPath = helpers.config('path');
         appName = helpers.config('name');
@@ -49,18 +49,13 @@
             encoding: null
           });
         }
-        if ((screens != null ? (_ref7 = screens.ios) != null ? _ref7.iphone667hx2 : void 0 : void 0) != null) {
-          grunt.file.copy(screens.ios.iphone667hx2, path.join(res, 'Default-667h.png'), {
+        if ((screens != null ? (_ref7 = screens.ios) != null ? _ref7.iphone667h : void 0 : void 0) != null) {
+          grunt.file.copy(screens.ios.iphone667h, path.join(res, 'Default-667h.png'), {
             encoding: null
           });
         }
-        if ((screens != null ? (_ref8 = screens.ios) != null ? _ref8.iphonePortrait736hx3 : void 0 : void 0) != null) {
-          grunt.file.copy(screens.ios.iphonePortrait736hx3, path.join(res, 'Default-736h.png'), {
-            encoding: null
-          });
-        }
-        if ((screens != null ? (_ref9 = screens.ios) != null ? _ref9.iphoneLandscape736hx3 : void 0 : void 0) != null) {
-          grunt.file.copy(screens.ios.iphoneLandscape736hx3, path.join(res, 'Default-Landscape-736h.png'), {
+        if ((screens != null ? (_ref8 = screens.ios) != null ? _ref8.iphone736h : void 0 : void 0) != null) {
+          grunt.file.copy(screens.ios.iphone736h, path.join(res, 'Default-736h.png'), {
             encoding: null
           });
         }
