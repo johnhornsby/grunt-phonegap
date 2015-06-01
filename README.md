@@ -592,12 +592,12 @@ Please run `grunt build` before submitting a pull request. The build output shou
 
 You can find [all the changelogs here](/docs/releases).
 
-### Latest changelog is from v0.15.2.md:
+### Latest changelog is from v0.9.3.md:
 
-#### v0.15.2
+#### v0.9.3
 
-  * Adds [grunt-init-phonegap](https://github.com/logankoester/grunt-init-phonegap) project template to make it easier to start new projects
-  * Updates `async` and `grunt-contrib-nodeunit` dependencies
+* Adds support for iOS splash screens.
+* Updates `README.md` with information for iOS icons and screens.
 
 
 ## License
